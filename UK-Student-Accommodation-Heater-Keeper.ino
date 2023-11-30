@@ -39,8 +39,8 @@ void setup() {
   delay(2000);
   display.clearDisplay();
 
-  myservo.attach(servoPin); // initialize Servo
-  myservo.write(88);
+  myservo.attach(servoPin, 500, 2400); // initialize Servo
+  myservo.write(90);
 
   Setpoint = 20; // set default desired temperature (when detected temp below this, will turn on heater)
 
@@ -54,33 +54,33 @@ void setup() {
 }
 
 void increaseHeater() {
-  myservo.write(88); // Find the angle make the servo horizontal
+  myservo.write(90); // Find the angle make the servo horizontal
   delay(1000);
   myservo.write(130); // Find the angle that can press increase button
   delay(1000);
-  myservo.write(88);
+  myservo.write(90);
   delay(1000);
 }
 
 void decreaseHeater() {
-  myservo.write(88);
+  myservo.write(90);
   delay(1000);
   myservo.write(50);
   delay(1000);
-  myservo.write(88);
+  myservo.write(90);
   delay(1000);
 }
 
 void TurnOnHeater() {
-    myservo.write(88);
+    myservo.write(90);
     delay(1000);
     myservo.write(145);
     delay(1000);
-    myservo.write(88);
+    myservo.write(90);
     delay(1000);
     myservo.write(145);
     delay(1000);
-    myservo.write(88);
+    myservo.write(90);
     delay(1000);
 }
 
