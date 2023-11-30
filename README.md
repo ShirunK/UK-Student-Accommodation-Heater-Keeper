@@ -1,5 +1,5 @@
 # UK Student Accommodation Heater Keeper
-The simple project based on Arduino UNO is for those whose room's heater automatically turn off with a timer. It can work as a external controller to make your heater keep workking and perform better.
+The simple project based on Arduino UNO is for those whose room's heater automatically turn off with a timer. It can work as a external controller to make your heater keep working and perform better.
 
 # Introduction
 In some UK student accommodations, to save the cost, the renter may set a compulsory timer to the heater in your room. This makes your winter so cold. Compared with violent disassembly and illegal circuit modification, adding a low-cost external controller to your heater is a wise choice. This simple project is based on the Arduino UNO and is great for beginners.
@@ -18,8 +18,8 @@ All the things you need:
 - Double Sided Adhesive Tape * 1
 
 # Default Settings:
-Heater Stop Time: 15min (which means the heater in your room will automatically turn off after 15 mins)
-Setpoint: 20 C (when indoor temperature is below than this value, the Keeper will turn on the heater)
+- Heater Stop Time: 15min (which means the heater in your room will automatically turn off after 15 mins)
+- Setpoint: 20 C (when indoor temperature is below than this value, the Keeper will turn on the heater)
 
 # Buttons Functions:
 - Manually increase the heater degree
